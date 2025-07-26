@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Tweet Page</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tweets Page</title>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="tweets.html">Tweets</a></li>
+      </ul>
+    </header>
 
-  <h1>Welcome to My Tweet Page</h1>
+    <main>
+      <article>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            The road to success is always under construction. 🛠️
+            <br /><br />
+            Keep building. #Motivation
+          </p>
+          &mdash; Example (@exampleuser)
+          <a href="https://twitter.com/exampleuser/status/1234567890123456789?ref_src=twsrc%5Etfw">March 1, 2024</a>
+        </blockquote>
 
-  <!-- Link to homepage -->
-  <p><a href="index.html">Go to Homepage</a></p>
+        <p><a href="index.html">Back to Home</a></p>
+      </article>
 
-  <!-- Embedded Tweet -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">Starship liftoff confirmed!</p>&mdash; Elon Musk (@elonmusk)
-    <a href="https://twitter.com/elonmusk/status/1623434467122348033">February 8, 2023</a>
-  </blockquote> 
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <aside>
+        <p>placeholder to add comment thread later</p>
+      </aside>
+    </main>
 
-</body>
+    <footer>
+      <p>Made by Gin San - <a href="https://github.com/yourusername" target="_blank">here</a></p>
+    </footer>
+  </body>
 </html>
